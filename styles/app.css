@@ -1,0 +1,13 @@
+/* font-family: 'Fugaz One', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+
+body {
+    background: rgb(251, 198, 245);
+    text-align: center;
+}
+h1 {
+    font-family: 'Fugaz One', cursive;
+}
+h2, p {
+    font-family: 'Poppins', sans-serif;
+}
