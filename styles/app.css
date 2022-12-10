@@ -5,19 +5,24 @@
   --primary-color: #ffc900;
   --secondary-color: #ff90e8;
   --tertiary-color: #23a094;
-  --primary-font: "Fugaz One", cursive;
-  --secondary-font: "Poppins", sans-serif;
+  --quaternary-color: #212529;
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Fugaz One", cursive;
 }
+
 /*On small-medium viewport*/
 @media (max-width: 800px) {
   h1 {
-    font-size: 45px;
+    font-size: 48px;
   }
   h2 {
-    font-size: 20px;
+    font-size: 24px;
   }
   h3 {
-    font-size: 14px;
+    font-size: 16px;
+  }
+  .btn-primary {
+      font-size: 14px;
   }
 }
 
@@ -32,17 +37,34 @@
   h3 {
     font-size: 20px;
   }
+    .btn-primary {
+      font-size: 20px;
+  }
 }
 
 /*All viewports*/
 body {
-  background: var(--secondary-color);
+  color: var(--font-color);
+  font-family: var(--primary-font);
   text-align: center;
+}
+.hero {
+  background: var(--secondary-color);
+  padding: 86px 0 30px 0;
+  max-width: 100%;
+  line-height: 1.5;
+}
+.hero h1 {
   font-family: var(--secondary-font);
 }
-.primary-container {
-  margin-top: 90px;
+.btn-primary {
+  background: var(--secondary-color);
+  border: 2px solid var(--quaternary-color);
+  color: var(--quaternary-color);
+  padding: 8px 15px;
 }
-h1 {
-  font-family: var(--primary-font);
+.btn-primary:hover {
+  background: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  color: var(--quaternary-color);
 }
