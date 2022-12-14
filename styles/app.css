@@ -51,13 +51,18 @@ body {
   color: var(--font-color);
   font-family: var(--primary-font);
   text-align: center;
-
+}
+nav {
+  background-color: #ffc900;
+  color: #212529;
+  border-bottom: 0.8mm solid var(--quaternary-color);
 }
 .hero {
   background: var(--secondary-color);
   padding: 86px 0 30px 0;
   max-width: 100%;
   line-height: 1.5;
+  border-bottom: 0.8mm solid var(--quaternary-color);
 }
 .hero h1 {
   font-family: var(--secondary-font);
@@ -89,4 +94,7 @@ body {
 img:hover {
   transform: scale(1.03);
   transition: all 0.3s ease-in-out;
+}
+i {
+  margin: 5px;
 }

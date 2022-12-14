@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../advanced-bootstrap-homework-challenge-forked/maggie-responsive-portfolio"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "portfolio-project-maggie-hyland"
+  }
+}
