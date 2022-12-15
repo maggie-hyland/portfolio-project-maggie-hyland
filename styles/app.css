@@ -80,7 +80,7 @@ nav {
   color: var(--quaternary-color);
 }
 .btn-secondary {
-  background: var(--tertiary-color);
+  background: var(--primary-color);
   border-radius: 8px;
   border: 2px solid var(--quaternary-color);
   color: var(--quaternary-color);
