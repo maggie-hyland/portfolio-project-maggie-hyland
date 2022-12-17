@@ -11,7 +11,7 @@
 }
 
 /*On small-medium viewport*/
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 48px;
   }
@@ -24,10 +24,20 @@
   .btn-primary {
     font-size: 14px;
   }
+  div.project-row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 901px) and (max-width: 991px) {
+  .img-fluid {
+    margin-top: 28px;
+    max-width: 120%;
+  }
 }
 
 /*On large viewport*/
-@media (min-width: 800px) {
+@media (min-width: 901px) {
   h1 {
     font-size: 90px;
   }
@@ -90,6 +100,10 @@ nav {
   background-color: #27afa1;
   border-radius: 12px;
   transition: all 0.2s ease-in-out;
+}
+img {
+  display: flex;
+  justify-content: flex-start;
 }
 img:hover {
   transform: scale(1.03);
