@@ -27,6 +27,7 @@
   div.project-row {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 }
 @media (min-width: 901px) and (max-width: 991px) {
@@ -102,12 +103,19 @@ nav {
   transition: all 0.2s ease-in-out;
 }
 img {
-  display: flex;
-  justify-content: flex-start;
+  justify-items: center;
+  margin-top: 10px;
 }
 img:hover {
   transform: scale(1.03);
   transition: all 0.3s ease-in-out;
+}
+.get-ready-forecast-img {
+  max-width: 89%;
+}
+.react-weather-app-img {
+  border-radius: 6px;
+  max-width: 87%;
 }
 i {
   margin: 5px;
