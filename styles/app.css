@@ -21,19 +21,19 @@
   h3 {
     font-size: 16px;
   }
-  .btn-primary {
-    font-size: 14px;
+  .btn-primary, .btn-secondary {
+    display: none;
   }
   div.project-row {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 40px;
   }
 }
 @media (min-width: 901px) and (max-width: 991px) {
   .img-fluid {
-    margin-top: 28px;
-    max-width: 120%;
+    margin-top: 44px;
   }
 }
 
@@ -50,6 +50,9 @@
   }
   .btn-primary {
     font-size: 20px;
+  }
+  .project-row {
+    margin-top: 14px;
   }
   .project-description {
     margin-top: 36px;
@@ -102,6 +105,9 @@ nav {
   border-radius: 12px;
   transition: all 0.2s ease-in-out;
 }
+.homepage-container {
+  margin-bottom: 40px;
+}
 img {
   justify-items: center;
   margin-top: 10px;
@@ -118,5 +124,9 @@ img:hover {
   max-width: 87%;
 }
 i {
-  margin: 5px;
+  margin: 0 10px;
+}
+.icon-container {
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
