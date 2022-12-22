@@ -21,7 +21,8 @@
   h3 {
     font-size: 16px;
   }
-  .btn-primary, .btn-secondary {
+  .btn-primary,
+  .btn-secondary {
     display: none;
   }
   div.project-row {
@@ -32,7 +33,9 @@
   }
 }
 @media (min-width: 901px) and (max-width: 991px) {
-  .img-fluid {
+  .get-ready-forecast-img,
+  .react-weather-app-img,
+  .tic-tac-toe-img {
     margin-top: 44px;
   }
 }
@@ -104,9 +107,6 @@ nav {
   background-color: #27afa1;
   border-radius: 12px;
   transition: all 0.2s ease-in-out;
-}
-.homepage-container {
-  margin-bottom: 40px;
 }
 img {
   justify-items: center;

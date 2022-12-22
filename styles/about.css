@@ -1,0 +1,27 @@
+/*On small-medium viewport*/
+@media (max-width: 900px) {
+  .about-row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 901px) and (max-width: 991px) {
+}
+
+/*On large viewport*/
+@media (min-width: 901px) {
+}
+
+/*All viewports*/
+.about-container {
+  margin-top: 86px;
+}
+.about-paragraphs {
+}
+.headshot-col {
+}
+.maggie-hyland-headshot-img {
+  border: 4px solid var(--quaternary-color);
+  border-radius: 6px;
+  max-width: 72%;
+}
