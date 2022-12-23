@@ -34,6 +34,8 @@
     margin-top: 40px;
   }
 }
+
+/*On 901-991px viewport*/
 @media (min-width: 901px) and (max-width: 991px) {
   .get-ready-forecast-img,
   .react-weather-app-img,

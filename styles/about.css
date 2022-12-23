@@ -8,12 +8,11 @@
     max-width: 75%;
   }
 }
+
+/*On 901-991px viewport*/
 @media (min-width: 901px) and (max-width: 991px) {
   .maggie-hyland-headshot-img {
     max-width: 82%;
-  }
-  div.about-container h1 {
-    font-size: 50px;
   }
   div.about-container h2 {
     font-size: 28px;
@@ -31,15 +30,14 @@
   .maggie-hyland-headshot-img {
     max-width: 55%;
   }
-  div.about-paragraphs 
-    p {
-      text-align: left;
-    }
+  div.about-paragraphs p {
+    text-align: left;
+  }
 }
 
 /*All viewports*/
 .about-container {
-  margin-top: 86px;
+  margin-top: 80px;
 }
 .about-paragraphs {
 }
