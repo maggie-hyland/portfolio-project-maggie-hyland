@@ -4,12 +4,37 @@
     display: flex;
     flex-direction: column;
   }
+  .maggie-hyland-headshot-img {
+    max-width: 75%;
+  }
 }
 @media (min-width: 901px) and (max-width: 991px) {
+  .maggie-hyland-headshot-img {
+    max-width: 82%;
+  }
+  div.about-container h1 {
+    font-size: 50px;
+  }
+  div.about-container h2 {
+    font-size: 28px;
+  }
 }
 
 /*On large viewport*/
 @media (min-width: 901px) {
+  div.about-container h1 {
+    font-size: 70px;
+  }
+  div.about-row {
+    margin: 30px 30px;
+  }
+  .maggie-hyland-headshot-img {
+    max-width: 55%;
+  }
+  div.about-paragraphs 
+    p {
+      text-align: left;
+    }
 }
 
 /*All viewports*/
@@ -25,5 +50,9 @@
 .maggie-hyland-headshot-img {
   border: 4px solid var(--quaternary-color);
   border-radius: 6px;
-  max-width: 72%;
+}
+div.about-row .btn-secondary {
+  width: 150px;
+  height: 42px;
+  margin: 5px auto;
 }
