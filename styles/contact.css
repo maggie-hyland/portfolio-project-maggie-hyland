@@ -34,6 +34,16 @@ a.social-link {
 a.social-link h3 {
   font-size: 24px;
 }
-.social-link p {
-    margin-left: 70px;
+p.personal-email {
+text-align: center;
+padding-top: 4px;
+}
+i.fa-linkedin {
+color: #0A66C2;
+}
+i.fa-github {
+   color: var(--quaternary-color); 
+}
+i.fa-envelope {
+color: ;
 }
