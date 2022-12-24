@@ -22,7 +22,7 @@
 /*On large viewport*/
 @media (min-width: 901px) {
   div.about-container h1 {
-    font-size: 70px;
+    font-size: 60px;
   }
   div.about-row {
     margin: 30px 30px;
