@@ -37,7 +37,7 @@
 @media (min-width: 991px) {
   div.mywork-container h1 {
     font-size: 60px;
-    padding: 0 150px;
+padding-bottom: 40px;
   }
   div.card {
     height: 100%;

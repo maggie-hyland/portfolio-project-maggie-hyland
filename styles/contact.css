@@ -1,0 +1,39 @@
+/*On small-medium viewport*/
+@media (max-width: 900px) {
+}
+
+/*On 901-991px viewport*/
+@media (min-width: 901px) and (max-width: 991px) {
+  div.contact-container h1 {
+    font-size: 48px;
+  }
+}
+
+/*On large viewport*/
+@media (min-width: 901px) {
+  div.contact-container h1 {
+    font-size: 60px;
+  }
+}
+
+/*All viewports*/
+.contact-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.socials-conainer {
+  text-align: left;
+  margin-top: 80px;
+}
+a.social-link {
+  margin: 2px;
+  text-align: left;
+  text-decoration: none;
+}
+a.social-link h3 {
+  font-size: 24px;
+}
+.social-link p {
+    margin-left: 70px;
+}
