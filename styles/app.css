@@ -33,6 +33,9 @@
     justify-content: center;
     margin-top: 40px;
   }
+  .nav-ul {
+    justify-content: start;
+  }
 }
 
 /*On 901-991px viewport*/
@@ -41,6 +44,9 @@
   .react-weather-app-img,
   .tic-tac-toe-img {
     margin-top: 44px;
+  }
+  .nav-ul {
+    justify-content: start;
   }
 }
 
@@ -66,7 +72,13 @@
     text-align: left;
   }
 }
-
+/*On large viewport*/
+@media (min-width: 901px) {
+  .nav-ul {
+    display: flex;
+    justify-content: end;
+  }
+}
 /*All viewports*/
 body {
   color: var(--font-color);
@@ -78,6 +90,7 @@ nav {
   color: #212529;
   border-bottom: 0.8mm solid var(--quaternary-color);
 }
+
 .hero {
   background: var(--secondary-color);
   padding: 86px 0 30px 0;
@@ -88,7 +101,11 @@ nav {
 .hero h1 {
   font-family: var(--secondary-font);
 }
-h1, h2, h3, p, i {
+h1,
+h2,
+h3,
+p,
+i {
   color: var(--quaternary-color);
 }
 .btn-primary {
