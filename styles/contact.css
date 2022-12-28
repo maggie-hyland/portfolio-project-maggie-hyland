@@ -14,6 +14,7 @@
   div.contact-container h1 {
     font-size: 60px;
   }
+
 }
 
 /*All viewports*/
@@ -28,14 +29,19 @@
 }
 .social-txt {
   font-size: 30px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .social-link {
   color: var(--tertiary-color);
   text-decoration: none;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
 }
 .social-link:hover {
   color: #27afa1;
+}
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }

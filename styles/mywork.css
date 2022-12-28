@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
   }
+
 }
 
 /*On 901-991px viewport*/
@@ -31,17 +32,19 @@
     display: flex;
     justify-content: center;
   }
+
 }
 
 /*On large viewport*/
 @media (min-width: 991px) {
   div.mywork-container h1 {
     font-size: 60px;
-padding-bottom: 40px;
+    padding-bottom: 40px;
   }
   div.card {
     height: 100%;
   }
+
 }
 
 /*All viewports*/
@@ -78,4 +81,9 @@ p.card-text {
   text-align: left;
   display: inline-block;
   align-self: flex-end;
+}
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }

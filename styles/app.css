@@ -23,10 +23,6 @@
   h3 {
     font-size: 16px;
   }
-  .btn-primary,
-  div.project-description .btn-secondary {
-    display: none;
-  }
   div.project-row {
     display: flex;
     flex-direction: column;
@@ -92,8 +88,8 @@ nav {
 }
 
 .hero {
-  background: var(--secondary-color);
-  padding: 86px 0 30px 0;
+  background: #ffc80049;
+  padding: 140px 0 120px 0;
   max-width: 100%;
   line-height: 1.5;
   border-bottom: 0.8mm solid var(--quaternary-color);
@@ -104,12 +100,11 @@ nav {
 h1,
 h2,
 h3,
-p,
-i {
+p {
   color: var(--quaternary-color);
 }
 .btn-primary {
-  background: var(--secondary-color);
+  background: var(--primary-color);
   border: 2px solid var(--quaternary-color);
   border-radius: 8px;
   color: var(--quaternary-color);
@@ -147,10 +142,40 @@ img:hover {
   border-radius: 6px;
   max-width: 87%;
 }
-i {
-  margin: 0 10px;
+div.icon-container {
+  margin: 10px 0 25px 0;
 }
-.icon-container {
-  margin-top: 40px;
-  margin-bottom: 20px;
+.footer-email {
+  color: var(--quaternary-color);
+  display: block;
+  padding: 8px 0 14px 0;
+  text-decoration: none;
+  font-size: 17px;
+}
+.footer-email:hover {
+  color: var(--tertiary-color);
+}
+
+footer {
+  background: #ffc80049;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 100%;
+  border-top: 0.8mm solid var(--quaternary-color);
+
+}
+footer .social-link-icons a {
+  margin: 0 10px;
+  color: rgb(255, 144, 232);
+  background: rgba(255, 144, 233, 0.22);
+  padding: 6px 14px;
+  border-radius: 12px;
+  font-size: 18px;
+  transition: all 130ms ease-in-out;
+}
+footer .social-link-icons a:hover {
+  color: rgb(241, 189, 0);
+  background: rgba(255, 200, 0, 0.3);
+  transition: all 130ms ease-in-out;
 }
