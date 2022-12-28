@@ -23,27 +23,19 @@
   margin-top: 80px;
 }
 .socials-conainer {
-  text-align: left;
+  display: flex;
   margin-top: 80px;
 }
-a.social-link {
-  margin: 2px;
-  text-align: left;
+.social-txt {
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+.social-link {
+  color: var(--tertiary-color);
   text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
 }
-a.social-link h3 {
-  font-size: 24px;
-}
-p.personal-email {
-text-align: center;
-padding-top: 4px;
-}
-i.fa-linkedin {
-color: #0A66C2;
-}
-i.fa-github {
-   color: var(--quaternary-color); 
-}
-i.fa-envelope {
-color: ;
+.social-link:hover {
+  color: #27afa1;
 }
