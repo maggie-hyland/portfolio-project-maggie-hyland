@@ -82,8 +82,3 @@ p.card-text {
   display: inline-block;
   align-self: flex-end;
 }
-footer {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-}

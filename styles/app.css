@@ -23,6 +23,9 @@
   h3 {
     font-size: 16px;
   }
+  .hero {
+    padding: 106px 0 62px 0;
+  }
   div.project-row {
     display: flex;
     flex-direction: column;
@@ -36,6 +39,9 @@
 
 /*On 901-991px viewport*/
 @media (min-width: 901px) and (max-width: 991px) {
+  .hero {
+    padding: 106px 0 62px 0;
+  }
   .get-ready-forecast-img,
   .react-weather-app-img,
   .tic-tac-toe-img {
@@ -56,6 +62,9 @@
   }
   h3 {
     font-size: 20px;
+  }
+  .hero {
+    padding: 140px 0 120px 0;
   }
   .btn-primary {
     font-size: 20px;
@@ -89,7 +98,6 @@ nav {
 
 .hero {
   background: #ffc80049;
-  padding: 140px 0 120px 0;
   max-width: 100%;
   line-height: 1.5;
   border-bottom: 0.8mm solid var(--quaternary-color);
@@ -161,9 +169,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  margin-top: 20px;
   max-width: 100%;
   border-top: 0.8mm solid var(--quaternary-color);
-
 }
 footer .social-link-icons a {
   margin: 0 10px;
