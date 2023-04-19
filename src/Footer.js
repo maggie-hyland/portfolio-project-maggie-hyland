@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="footer fixed-bottom">
+    <div className="footer absolute-bottom">
       <footer>
         <div className='container icon-container'>
           <a href='mailto:maggieahyland@gmail.com' className='footer-email'>
@@ -28,7 +28,7 @@ function Footer() {
               <i className='fa-solid fa-envelope fa-l'></i>
             </a>
           </div>
-          <h4 className='open-source'>
+          <p className='open-source'>
             Coded by Maggie Hyland and
             <a
               href='https://github.com/maggie-hyland/portfolio-project-maggie-hyland'
@@ -37,7 +37,7 @@ function Footer() {
             >
               open-sourced
             </a>
-          </h4>
+          </p>
         </div>
       </footer>
     </div>
