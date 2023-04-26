@@ -1,17 +1,13 @@
-import GetReadyForecast from './images/GetReadyForecast.png';
-import ReactWeatherApp from './images/ReactWeatherApp.png';
-import TicTacToe from './images/TicTacToe.png';
+import GetReadyForecast from './GetReadyForecast';
+import ReactWeatherApp from './ReactWeatherApp';
+import TicTacToe from './TicTacToe';
 
 function Projects() {
   return (
     <div className="Projects container mb-2" id="projects">
       <div className="row mt-3 d-flex">
         <div className="d-none d-md-block col-md-6">
-          <img
-            src={GetReadyForecast}
-            alt="Javascript Weather Application"
-            className="img-fluid rounded"
-          />
+          <GetReadyForecast />
         </div>
         <div className="col-md-6">
           <h2 className="mb-3">JS Weather App</h2>
@@ -21,6 +17,9 @@ function Projects() {
             eos eveniet alias temporibus deserunt veritatis minima fugiat
             explicabo eum dolore.
           </p>
+          <div className="d-none d-sm-block d-md-none">
+            <GetReadyForecast />
+          </div>
           <div className="launch-app-links">
             <a
               href="index.html"
@@ -41,6 +40,9 @@ function Projects() {
             eos eveniet alias temporibus deserunt veritatis minima fugiat
             explicabo eum dolore.
           </p>
+          <div className="d-none d-sm-block d-md-none">
+            <ReactWeatherApp />
+          </div>
           <div className="launch-app-links">
             <a href="index.html" className="primary-link" target="_blank">
               Launch Weather App
@@ -48,11 +50,7 @@ function Projects() {
           </div>
         </div>
         <div className="d-none d-md-block col-md-6">
-          <img
-            src={ReactWeatherApp}
-            alt="Weather Application"
-            className="img-fluid rounded"
-          />
+          <ReactWeatherApp />
         </div>
       </div>
       <div className="row mt-5 mb-5 d-flex">
@@ -71,6 +69,7 @@ function Projects() {
             eos eveniet alias temporibus deserunt veritatis minima fugiat
             explicabo eum dolore.
           </p>
+          <div className="d-none d-sm-block d-md-none"></div>
           <div className="launch-app-links">
             <a href="index.html" className="primary-link" target="_blank">
               Launch Yogurt App
@@ -86,6 +85,9 @@ function Projects() {
               omnis quam vel eos eveniet alias temporibus deserunt veritatis
               minima fugiat explicabo eum dolore.
             </p>
+            <div className="d-none d-sm-block d-md-none">
+              <TicTacToe />
+            </div>
             <div className="launch-app-links">
               <a href="index.html" className="primary-link" target="_blank">
                 Launch TicTacToe
@@ -93,11 +95,7 @@ function Projects() {
             </div>
           </div>
           <div className="d-none d-md-block col-md-6">
-            <img
-              src={TicTacToe}
-              alt="Weather Application"
-              className="img-fluid rounded"
-            />
+            <TicTacToe />
           </div>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import './AboutMe.scss';
+import './scss/AboutMe.scss';
 
 function AboutMe() {
   return (
