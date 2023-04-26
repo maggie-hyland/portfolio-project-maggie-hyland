@@ -4,14 +4,14 @@ import TicTacToe from './TicTacToe';
 
 function Projects() {
   return (
-    <div className="Projects container mb-2" id="projects">
+    <div className="Projects container mb-2 pt-2" id="projects">
       <div className="row mt-3 d-flex">
         <div className="d-none d-md-block col-md-6">
           <GetReadyForecast />
         </div>
         <div className="col-md-6">
           <h2 className="mb-3">JS Weather App</h2>
-          <p className="app-paragraphs">
+          <p className="fs-5 app-paragraphs">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
             quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
             eos eveniet alias temporibus deserunt veritatis minima fugiat
@@ -34,7 +34,7 @@ function Projects() {
       <div className="row mt-5 d-flex">
         <div className="col-md-6">
           <h2 className="mb-3">React Weather App</h2>
-          <p className="app-paragraphs">
+          <p className="fs-5 app-paragraphs">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
             quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
             eos eveniet alias temporibus deserunt veritatis minima fugiat
@@ -63,7 +63,7 @@ function Projects() {
         </div>
         <div className="col-md-6">
           <h2 className="mb-3">Yogurt app</h2>
-          <p className="app-paragraphs">
+          <p className="fs-5 app-paragraphs">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
             quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
             eos eveniet alias temporibus deserunt veritatis minima fugiat
@@ -79,7 +79,7 @@ function Projects() {
         <div className="row mt-5 d-flex">
           <div className="col-md-6">
             <h2 className="mb-3">Tic Tac Toe</h2>
-            <p className="app-paragraphs">
+            <p className="fs-5 app-paragraphs">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Perferendis quia, dignissimos nam ratione veniam quibusdam porro
               omnis quam vel eos eveniet alias temporibus deserunt veritatis
