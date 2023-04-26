@@ -1,6 +1,8 @@
+import './AboutMe.scss';
+
 function AboutMe() {
   return (
-    <div className='AboutMe container text-center'>
+    <div className='AboutMe container text-center' id="aboutMe">
       <div className='row'>
         <div className='col-12 col-md-3'>
           <div className='row'>

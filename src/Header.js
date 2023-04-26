@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <div>
+    <div className="Header">
       <header>
         <nav className='navbar navbar-expand-lg navbar-light bg-light'>
           <div className='container-fluid'>
@@ -21,17 +21,17 @@ function Header() {
             <div className='collapse navbar-collapse' id='navbarNav'>
               <ul className='navbar-nav'>
                 <li className='nav-item'>
-                  <a className='nav-link active' aria-current='page' href='#'>
+                  <a className='nav-link active' aria-current='page' href='index.html#aboutMe'>
                     About Me
                   </a>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link' href=''>
+                  <a className='nav-link' href='index.html#projects'>
                     Projects
                   </a>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link' href='#'>
+                  <a className='nav-link' href='index.html#contact'>
                     Contact
                   </a>
                 </li>

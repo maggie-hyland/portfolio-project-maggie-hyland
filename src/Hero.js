@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div>
+    <div className="Hero container">
       <h1>
         <div className='fs-3'>Hello, I am</div>
         <div className='fs-1'>Maggie Hyland</div>
