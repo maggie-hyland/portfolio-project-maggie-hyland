@@ -2,17 +2,18 @@ import './scss/AboutMe.scss';
 
 function AboutMe() {
   return (
-    <div className="AboutMe container text-center" id="aboutMe">
+    <div className="AboutMe container text-center mb-4" id="aboutMe">
       <div className="row">
-        <div className="col-12 col-md-3">
+        <div className="col-12 col-md-2">
           <div className="row">
-            <span className="fs-1 col-md-12 col-auto text-start gx-1">
-              About Me
-            </span>
+            <div className="AboutMeTitle col-md-12 col-auto gx-1">
+              <span className="About">About</span>{' '}
+              <span className="Me">Me</span>
+            </div>
           </div>
         </div>
-        <div class="col-12 col-md-9 gx-1">
-          <p className="fs-5 text-start">
+        <div class="col-12 col-md-10 gx-1 ">
+          <p className="AboutMeParagraph fs-5 text-start">
             Hi, I'm Maggie! I have a passion for learning and a desire to take
             on new challenges. I've made the decision to transition my career
             from dental hygiene to front-end web development and I've found the

@@ -1,13 +1,60 @@
-@import "Style";
+@import 'Style';
 
-@media (max-width: 768px) {
+//for extra-small viewports
+@media (max-width: 575px) {
   .AboutMe {
-    padding: 15px 20px 20px 20px;
+    margin-left: 10px;
+    padding-right: 30px;
   }
 }
-@media (min-width: 767px) {
-  .AboutMe {
-    padding-top: 30px;
-  }
 
+//for small viewports
+@media (max-width: 767px) {
+  .AboutMeTitle {
+    font-size: 32px;
+  }
+}
+
+//for medium-large viewports
+@media (min-width: 768px) {
+  .About {
+    display: block;
+  }
+  .AboutMe {
+    margin-top: 30px;
+    padding-top: 20px;
+  }
+  .AboutMeTitle {
+    text-align: end;
+    padding-right: 30px;
+    font-size: 55px;
+    position: relative;
+    top: -4px;
+  }
+  span.Me {
+    position: relative;
+    top: -14px;
+  }
+}
+
+//for viewports between 1199px & 992px
+@media (max-width: 1199px) and (min-width: 992px) {
+  .AboutMeTitle {
+    font-size: 40px;
+  }
+}
+//for viewports between 991px & 768px
+@media (max-width: 991px) and (min-width: 768px) {
+  .AboutMeTitle {
+    font-size: 35px;
+  }
+}
+//for all viewports
+.AboutMeTitle {
+  color: $secondary-color;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+}
+.AboutMeParagraph {
+  padding-top: 5px;
 }
