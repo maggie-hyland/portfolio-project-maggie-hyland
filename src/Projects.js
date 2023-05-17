@@ -10,23 +10,21 @@ function Projects() {
           <GetReadyForecast />
         </div>
         <div className="col-md-6">
-          <h2 className="mb-3">JS Weather App</h2>
+          <h2 className="mb-3">Get Ready Forecast</h2>
           <p className="fs-5 app-paragraphs">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
+            Five day weather forecast application made with Javascript... (add
+            more detail?)
           </p>
           <div className="d-none d-sm-block d-md-none">
             <GetReadyForecast />
           </div>
           <div className="launch-app-links">
             <a
-              href="index.html"
+              href="https://famous-pasca-19c020.netlify.app/"
               className="primary-link center"
               target="_blank"
             >
-              Launch JS Weather App
+              Launch Get Ready Forecast
             </a>
           </div>
         </div>
@@ -62,7 +60,7 @@ function Projects() {
           />
         </div>
         <div className="col-md-6">
-          <h2 className="mb-3">Yogurt app</h2>
+          <h2 className="mb-3">Vaporwave Webpage</h2>
           <p className="fs-5 app-paragraphs">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
             quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
