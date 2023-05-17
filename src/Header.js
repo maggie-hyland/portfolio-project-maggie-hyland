@@ -1,10 +1,12 @@
+import './scss/Header.scss'
+
 function Header() {
   return (
     <div className="Header">
       <header>
-        <nav className='navbar navbar-expand-lg navbar-light bg-light'>
+        <nav className='navbar navbar-expand-lg'>
           <div className='container-fluid'>
-            <a className='navbar-brand' href='#'>
+            <a className='navbar-brand text-light' href='#'>
               Maggie Hyland
             </a>
             <button
@@ -21,17 +23,17 @@ function Header() {
             <div className='collapse navbar-collapse' id='navbarNav'>
               <ul className='navbar-nav'>
                 <li className='nav-item'>
-                  <a className='nav-link active' aria-current='page' href='index.html#aboutMe'>
+                  <a className='nav-link active text-light' aria-current='page' href='index.html#aboutMe'>
                     About Me
                   </a>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link' href='index.html#projects'>
+                  <a className='nav-link text-light' href='index.html#projects'>
                     Projects
                   </a>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link' href='index.html#contact'>
+                  <a className='nav-link text-light' href='index.html#contact'>
                     Contact
                   </a>
                 </li>
