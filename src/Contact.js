@@ -1,11 +1,9 @@
+import './scss/Contact.scss';
+
 function Contact() {
   return (
     <div className="Contact">
-      <div id="contact">Contact</div>
       <div className="container icon-container">
-        <a href="mailto:maggieahyland@gmail.com" className="footer-email">
-          maggieahyland@gmail.com
-        </a>
         <div className="social-link-icons d-flex justify-content-center">
           <a
             href="https://www.linkedin.com/in/maggie-hyland-51257025a/"
@@ -25,8 +23,11 @@ function Contact() {
             <i className="fa-solid fa-envelope fa-l"></i>
           </a>
         </div>
+        <a href="mailto:maggieahyland@gmail.com" className="footer-email">
+          maggieahyland@gmail.com
+        </a>
         <p className="open-source">
-          Coded by Maggie Hyland and
+          Coded by Maggie Hyland and{' '}
           <a
             href="https://github.com/maggie-hyland/portfolio-project-maggie-hyland"
             target="_blank"

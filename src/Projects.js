@@ -1,6 +1,8 @@
 import GetReadyForecast from './GetReadyForecast';
 import ReactWeatherApp from './ReactWeatherApp';
 import TicTacToe from './TicTacToe';
+import Vaporwave from './Vaporwave';
+import  './scss/Projects.scss'
 
 function Projects() {
   return (
@@ -11,7 +13,7 @@ function Projects() {
         </div>
         <div className="col-md-6">
           <h2 className="mb-3">Get Ready Forecast</h2>
-          <p className="fs-5 app-paragraphs">
+          <p className="fs-4 app-paragraphs">
             Five day weather forecast application made with Javascript... (add
             more detail?)
           </p>
@@ -32,7 +34,7 @@ function Projects() {
       <div className="row mt-5 d-flex">
         <div className="col-md-6">
           <h2 className="mb-3">React Weather App</h2>
-          <p className="fs-5 app-paragraphs">
+          <p className="fs-4 app-paragraphs">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
             quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
             eos eveniet alias temporibus deserunt veritatis minima fugiat
@@ -53,31 +55,29 @@ function Projects() {
       </div>
       <div className="row mt-5 mb-5 d-flex">
         <div className="d-none d-md-block col-md-6">
-          <img
-            src="images/yogurt.png"
-            alt="Yogurt Application"
-            className="img-fluid rounded"
-          />
+          <Vaporwave />
         </div>
         <div className="col-md-6">
           <h2 className="mb-3">Vaporwave Webpage</h2>
-          <p className="fs-5 app-paragraphs">
+          <p className="fs-4 app-paragraphs">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
             quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
             eos eveniet alias temporibus deserunt veritatis minima fugiat
             explicabo eum dolore.
           </p>
-          <div className="d-none d-sm-block d-md-none"></div>
+          <div className="d-none d-sm-block d-md-none">
+            <Vaporwave />
+          </div>
           <div className="launch-app-links">
             <a href="index.html" className="primary-link" target="_blank">
-              Launch Yogurt App
+              Launch Vaporwave Webpage
             </a>
           </div>
         </div>
         <div className="row mt-5 d-flex">
           <div className="col-md-6">
             <h2 className="mb-3">Tic Tac Toe</h2>
-            <p className="fs-5 app-paragraphs">
+            <p className="fs-4 app-paragraphs">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Perferendis quia, dignissimos nam ratione veniam quibusdam porro
               omnis quam vel eos eveniet alias temporibus deserunt veritatis

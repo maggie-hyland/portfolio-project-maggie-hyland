@@ -1,5 +1,8 @@
-@import "Style";
+@import 'Style';
 /*may need to change padding for footer, revisit when more is done*/
 footer {
-  padding-top: 250px;
+  margin-top: 40px;
+  background: $tertiary-color;
+  font-size: 18px;
 }
+
