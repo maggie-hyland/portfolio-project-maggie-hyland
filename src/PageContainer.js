@@ -7,7 +7,7 @@ import React from 'react';
 
 function PageContainer() {
   return (
-    <div className='PageContainer'>
+    <div className="PageContainer">
       <Header />
       <Hero />
       <AboutMe />

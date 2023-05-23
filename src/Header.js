@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="Header">
       <header>
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg navbar-light">
           <div className="container-fluid">
             <a className="navbar-brand text-light" href="#">
               Maggie Hyland
