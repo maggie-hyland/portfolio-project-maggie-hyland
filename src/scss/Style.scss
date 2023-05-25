@@ -1,12 +1,26 @@
-$primary-color: rgb(255, 255, 255);
-$secondary-color: rgb(160, 135, 195);
-$tertiary-color: #ffb54b;
-$quaternary-color: rgb(241, 138, 110);
+// light theme
+$bg-color-light: rgb(255, 255, 255);
+$first-color-light: rgb(160, 135, 195);
+$second-color-light: #ffb54b;
+$third-color-light: rgb(241, 138, 110);
 
+// dark theme
+$bg-color-dark: rgb(87, 35, 160);
+$first-color-dark: rgb(160, 135, 195);
+$second-color-dark: #ffb54b;
+$third-color-dark: rgb(241, 138, 110);
 
+// fonts
 $title-font: 'Raleway', sans-serif;
 
 .App {
   text-align: center;
-  background-color: $primary-color;
+  background-color: $bg-color-light;
+}
+
+#light {
+  background-color: $bg-color-light;
+}
+#dark {
+  background-color: $bg-color-dark;
 }
