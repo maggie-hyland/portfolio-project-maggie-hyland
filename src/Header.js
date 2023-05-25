@@ -9,7 +9,6 @@ function Header() {
             <a className="navbar-brand" href="#">
               Maggie Hyland
             </a>
-
             <button
               className="navbar-toggler"
               type="button"

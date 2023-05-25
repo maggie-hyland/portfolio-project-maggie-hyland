@@ -16,18 +16,29 @@ $title-font: 'Raleway', sans-serif;
 .App {
   text-align: center;
   background-color: $bg-color-light;
-
 }
-
+label {
+  position: relative;
+  bottom: 5px;
+  right: 4px;
+  font-size: 18px;
+}
 #light {
   background-color: $bg-color-light;
+  .switch {
+    background-color: $first-color-light;
+
+  }
   .switch label {
-    color: $first-color-light;
+    color: $bg-color-light;
   }
 }
 #dark {
   background-color: $bg-color-dark;
+  .switch {
+    background-color: $first-color-dark;
+  }
   .switch label {
-    color: $first-color-dark;
+    color: $bg-color-dark;
   }
 }
