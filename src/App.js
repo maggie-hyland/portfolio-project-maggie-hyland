@@ -1,5 +1,6 @@
 import PageContainer from './PageContainer';
 import { createContext, useState } from 'react';
+import ReactSwitch from 'react-switch';
 
 export const ThemeContext = createContext(null);
 
@@ -13,6 +14,10 @@ function App() {
     <ThemeContext.Provider value={{ theme, setTheme }}>
       <div className="App" id={theme}>
         <PageContainer />
+        <div className="switch">
+          <label> {theme === "light" ? "Light Mode" : "Dark Mode"} </label>
+              <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
+            </div>
       </div>
     </ThemeContext.Provider>
   );

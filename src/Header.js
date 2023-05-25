@@ -4,11 +4,12 @@ function Header() {
   return (
     <div className="Header">
       <header>
-        <nav className="navbar navbar-expand-lg navbar-light">
+        <nav className="navbar navbar-expand-lg">
           <div className="container-fluid">
-            <a className="navbar-brand text-light" href="#">
+            <a className="navbar-brand" href="#">
               Maggie Hyland
             </a>
+
             <button
               className="navbar-toggler"
               type="button"
@@ -24,7 +25,7 @@ function Header() {
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <a
-                    className="nav-link active text-light"
+                    className="nav-link active"
                     aria-current="page"
                     href="index.html#aboutMe"
                   >
@@ -32,17 +33,17 @@ function Header() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-light" href="index.html#projects">
+                  <a className="nav-link" href="index.html#projects">
                     Projects
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-light" href="index.html#contact">
+                  <a className="nav-link" href="index.html#contact">
                     Contact
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-light" href="index.html#contact">
+                  <a className="nav-link" href="index.html#contact">
                     <i class="fa-solid fa-cat"></i>
                   </a>
                 </li>

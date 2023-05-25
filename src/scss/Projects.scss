@@ -4,9 +4,17 @@ h2 {
   font-family: $title-font;
   font-weight: 500;
   font-size: 36px;
-  color: $third-color-light;
+
   border-radius: 8px;
   padding-top: 2px;
   padding-bottom: 2px;
   margin-top: 3px;
+}
+
+#light h2 {
+  color: $third-color-light;
+}
+
+#dark h2 {
+  color: $third-color-dark;
 }

@@ -1,5 +1,10 @@
 @import 'Style';
 
-nav {
+#light nav {
   background: $first-color-light;
+}
+
+#dark nav {
+  background: $first-color-dark;
+  
 }
