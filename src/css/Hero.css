@@ -1,1 +1,1 @@
-.App{text-align:center;background-color:#fff}#light{background-color:#fff}#dark{background-color:#932191}.Hero{color:#a087c3;font-family:"Raleway",sans-serif}
+.App{color:#ffffff ;text-align:center;background-color:"bg-color"}@media(prefers-color-scheme: dark){.App{color:#7b417b }}label{position:relative;bottom:5px;right:4px;font-size:18px}.Hero{color:#a087c3 ;color:"first-color";font-family:"Raleway",sans-serif}@media(prefers-color-scheme: dark){.Hero{color:#461a3e }}

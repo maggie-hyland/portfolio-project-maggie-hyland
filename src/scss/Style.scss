@@ -1,44 +1,86 @@
-// light theme
-$bg-color-light: #ffffff;
-$first-color-light: #a087c3;
-$second-color-light: #ffb54b;
-$third-color-light: #f18a6e;
-
-// dark theme
-$bg-color-dark: #7b417b;
-$first-color-dark: #461a3e;
-$second-color-dark: #fe9055;
-$third-color-dark: #fe766a;
-
 // fonts
 $title-font: 'Raleway', sans-serif;
 
+$dark-theme: 'dark-theme';
+$light-theme: 'light-theme';
+// color names
+$bg-color: 'bg-color';
+$nav-color: 'nav-color';
+$first-color: 'first-color';
+$second-color: 'second-color';
+$third-color: 'third-color';
+
+$themes: (
+  $light-theme: (
+    $bg-color: #ffffff,
+    $nav-color: #a087c3,
+    $first-color: #a087c3,
+    $second-color: #ffb54b,
+    $third-color: #f18a6e,
+  ),
+  $dark-theme: (
+    $bg-color: #7b417b,
+    $nav-color: #7b417b,
+    $first-color: #461a3e,
+    $second-color: #fe9055,
+    $third-color: #fe766a,
+  ),
+);
+
+@mixin themeProperty(
+  $theme,
+  $property,
+  $color,
+  $additionalPropertiesPositionIsFront,
+  $additionalProperties
+) {
+  @if $additionalPropertiesPositionIsFront {
+    #{$property}: unquote(
+      $additionalProperties + ' ' + map-get($theme, $color)
+    );
+  } @else {
+    #{$property}: unquote(
+      map-get($theme, $color) + ' ' + $additionalProperties
+    );
+  }
+}
+
+@mixin theme(
+  $property,
+  $color,
+  $additionalPropertiesPositionIsFront: false,
+  $additionalProperties: ''
+) {
+  $light: map-get($themes, $light-theme);
+  $dark: map-get($themes, $dark-theme);
+
+  @include themeProperty(
+    $light,
+    $property,
+    $color,
+    $additionalPropertiesPositionIsFront,
+    $additionalProperties
+  );
+
+  @media (prefers-color-scheme: dark) {
+    @include themeProperty(
+      $dark,
+      $property,
+      $color,
+      $additionalPropertiesPositionIsFront,
+      $additionalProperties
+    );
+  }
+}
+
 .App {
+  @include theme('color', $bg-color);
   text-align: center;
-  background-color: $bg-color-light;
+  background-color: $bg-color;
 }
 label {
   position: relative;
   bottom: 5px;
   right: 4px;
   font-size: 18px;
-}
-#light {
-  background-color: $bg-color-light;
-  .switch {
-    background-color: $first-color-light;
-
-  }
-  .switch label {
-    color: $bg-color-light;
-  }
-}
-#dark {
-  background-color: $bg-color-dark;
-  .switch {
-    background-color: $first-color-dark;
-  }
-  .switch label {
-    color: $bg-color-dark;
-  }
 }

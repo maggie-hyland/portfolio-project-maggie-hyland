@@ -1,10 +1,6 @@
 @import 'Style';
 
-#light nav {
-  background: $first-color-light;
-}
-
-#dark nav {
-  background: $first-color-dark;
-  
+.navbar {
+  @include theme('background-color', $nav-color);
+  background-color: $nav-color;
 }

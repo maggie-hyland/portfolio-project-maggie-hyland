@@ -1,1 +1,1 @@
-.App{text-align:center;background-color:#fff}#light{background-color:#fff}#dark{background-color:#932191}
+.App{text-align:center;background-color:#fff}label{position:relative;bottom:5px;right:4px;font-size:18px}#light{background-color:#fff}#light .switch{background-color:#a087c3}#light .switch label{color:#fff}#dark{background-color:#7b417b}#dark .switch{background-color:#461a3e}#dark .switch label{color:#7b417b}

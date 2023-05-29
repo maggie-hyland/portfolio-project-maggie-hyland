@@ -13,7 +13,7 @@ function AboutMe() {
           </div>
         </div>
         <div class="col-12 col-md-10 gx-1 ">
-          <p className="AboutMeParagraph fs-4 text-start">
+          <p className="AboutMeParagraph fs-5 text-start">
             Hi, I'm Maggie! I have a passion for learning and a desire to take
             on new challenges. I've made the decision to transition my career
             from dental hygiene to front-end web development and I've found the

@@ -1,1 +1,1 @@
-.App{text-align:center;background-color:#fff}#light{background-color:#fff}#dark{background-color:#7b417b}#light nav{background:#a087c3}#dark nav{background:#461a3e}
+.App{color:#ffffff ;text-align:center;background-color:"bg-color"}@media(prefers-color-scheme: dark){.App{color:#7b417b }}label{position:relative;bottom:5px;right:4px;font-size:18px}.navbar{background-color:#a087c3 ;background-color:"first-color"}@media(prefers-color-scheme: dark){.navbar{background-color:#461a3e }}

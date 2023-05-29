@@ -7,26 +7,26 @@ p {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.fa-linkedin, .fa-square-github, .fa-envelope, .footer-email, .footer-email:hover, .open-source-link, .open-source-link:hover  {
+  @include theme('color', $bg-color);
+  color: $bg-color;
+}
+
 .fa-linkedin, .fa-square-github, .fa-envelope {
-  color: $bg-color-light;
   padding: 10px 3px;
   font-size: 35px;
 }
 .footer-email {
   text-decoration: none;
   font-size: 20px;
-  color: $bg-color-light;
 }
 .footer-email:hover {
   text-decoration: underline;
-  color: $bg-color-light;
 }
 .open-source-link {
   text-decoration: none;
   font-size: 19px;
-  color: $bg-color-light;
 }
 .open-source-link:hover {
   text-decoration: underline;
-  color: $bg-color-light;
 }

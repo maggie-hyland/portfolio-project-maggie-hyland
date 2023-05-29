@@ -1,6 +1,7 @@
 @import 'Style';
 
 .Hero {
-  color: $first-color-light;
+  @include theme('color', $first-color);
+  color: $first-color;
   font-family: $title-font;
 }
