@@ -10,6 +10,8 @@ h2 {
 }
 
 h2 {
-  @include theme('color', $third-color);
-  color: $third-color;
+  @include theme('color', $secondary-header-color
+  );
+  color: $secondary-header-color
+  ;
 }

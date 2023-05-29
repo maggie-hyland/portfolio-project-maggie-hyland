@@ -6,24 +6,24 @@ $light-theme: 'light-theme';
 // color names
 $bg-color: 'bg-color';
 $nav-color: 'nav-color';
-$first-color: 'first-color';
-$second-color: 'second-color';
+$primary-header-color: 'primary-header-color';
+$secondary-header-color: 'secondary-header-color';
 $third-color: 'third-color';
 
 $themes: (
   $light-theme: (
     $bg-color: #ffffff,
     $nav-color: #a087c3,
-    $first-color: #a087c3,
-    $second-color: #ffb54b,
+    $primary-header-color: #a087c3,
+    $secondary-header-color: #ffb54b,
     $third-color: #f18a6e,
   ),
   $dark-theme: (
     $bg-color: #7b417b,
     $nav-color: #7b417b,
-    $first-color: #461a3e,
-    $second-color: #fe9055,
-    $third-color: #fe766a,
+    $primary-header-color: #e6cbe1,
+    $secondary-header-color: #fe9055,
+    $third-color: #ff978e,
   ),
 );
 
@@ -74,13 +74,7 @@ $themes: (
 }
 
 .App {
-  @include theme('color', $bg-color);
+  @include theme('background-color', $bg-color);
   text-align: center;
   background-color: $bg-color;
-}
-label {
-  position: relative;
-  bottom: 5px;
-  right: 4px;
-  font-size: 18px;
 }
