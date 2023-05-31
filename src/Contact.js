@@ -2,7 +2,7 @@ import './scss/Contact.scss';
 
 function Contact() {
   return (
-    <div className="Contact">
+    <div className="Contact" id='contact'>
       <div className="container icon-container">
         <div className="social-link-icons d-flex justify-content-center">
           <a

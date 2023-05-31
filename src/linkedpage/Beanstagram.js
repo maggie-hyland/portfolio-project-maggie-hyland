@@ -1,3 +1,5 @@
+import InstagramFeed from "./InstagramFeed";
+
 function Beanstagram() {
   return (
     <div>

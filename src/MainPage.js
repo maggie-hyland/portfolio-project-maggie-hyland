@@ -1,17 +1,18 @@
-import Navigation from './Navigation';
 import Hero from './Hero';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
 import Footer from './Footer';
 import React from 'react';
 
-function PageContainer() {
+function MainPage() {
   return (
-    <div className="PageContainer">
-      <MainPage />
-      <LinkedPage />
+    <div>
+      <Hero />
+      <AboutMe />
+      <Projects />
+      <Footer />
     </div>
   );
 }
 
-export default PageContainer;
+export default MainPage;
