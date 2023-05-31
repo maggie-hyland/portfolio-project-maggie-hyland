@@ -76,7 +76,7 @@ function Navigation() {
                   </li>
                   <li className="nav-item">
                     <Link to="/linked" className="nav-link"  onClick={closeMenu}>
-                      <i class="fa-solid fa-cat"></i>
+                      <i className="fa-solid fa-cat"></i>
                     </Link>
                   </li>
                 </ul>
