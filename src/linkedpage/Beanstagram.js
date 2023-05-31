@@ -1,9 +1,11 @@
 import InstagramFeed from "./InstagramFeed";
+import Footer from "../Footer";
 
 function Beanstagram() {
   return (
-    <div>
+    <div className="InstagramFeed">
       <InstagramFeed />
+      <Footer />
     </div>
   );
 }

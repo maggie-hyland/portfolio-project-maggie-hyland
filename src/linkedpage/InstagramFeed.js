@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import 'c:/Users/maggi/Desktop/portfolio-project-maggie-hyland/src/scss/InstagramFeed.scss';
 
 const InstagramFeed = () => {
   const [photos, setPhotos] = useState([]);
@@ -27,17 +28,23 @@ const InstagramFeed = () => {
   }, []);
 
   return (
-    <div>
-      <h2>Instagram Feed</h2>
-      <ul>
-        {photos.map((photo) => (
-          <li key={photo.id}>
-            <a href={photo.permalink} target="_blank" rel="noopener noreferrer">
-              <img src={photo.media_url} alt="Instagram" />
-            </a>
-          </li>
-        ))}
-      </ul>
+    <div className="InstagramFeed container-fluid h-100">
+      <div className="row h-100 flex-fill">
+        <h2>Instagram Feed</h2>
+        <ul>
+          {photos.map((photo) => (
+            <li key={photo.id}>
+              <a
+                href={photo.permalink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={photo.media_url} alt="Instagram" />
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
