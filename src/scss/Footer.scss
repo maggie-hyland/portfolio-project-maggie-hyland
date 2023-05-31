@@ -1,8 +1,8 @@
 @import 'Style';
 /*may need to change padding for footer, revisit when more is done*/
 footer {
-  @include theme('background-color', $secondary-header-color);
+  @include theme('background-color', $footer-color);
   margin-top: 40px;
-  background-color: $secondary-header-color;
+  background-color: $footer-color;
 }
 

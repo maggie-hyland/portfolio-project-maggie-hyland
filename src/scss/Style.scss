@@ -9,6 +9,7 @@ $nav-color: 'nav-color';
 $primary-header-color: 'primary-header-color';
 $secondary-header-color: 'secondary-header-color';
 $third-color: 'third-color';
+$footer-color: 'footer-color';
 
 $themes: (
   $light-theme: (
@@ -17,13 +18,15 @@ $themes: (
     $primary-header-color: #a087c3,
     $secondary-header-color: #ffb54b,
     $third-color: #f18a6e,
+    $footer-color: #ffb54b
   ),
   $dark-theme: (
     $bg-color: #7b417b,
-    $nav-color: #7b417b,
+    $nav-color: #e6cbe1,
     $primary-header-color: #e6cbe1,
     $secondary-header-color: #fe9055,
     $third-color: #ff978e,
+    $footer-color: #fe9055
   ),
 );
 
