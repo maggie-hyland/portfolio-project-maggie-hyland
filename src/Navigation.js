@@ -33,7 +33,12 @@ function Navigation() {
               >
                 <span className="navbar-toggler-icon"></span>
               </button>
-              <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="navbarNav">
+              <div
+                className={`collapse navbar-collapse ${
+                  isMenuOpen ? 'show' : ''
+                }`}
+                id="navbarNav"
+              >
                 <ul className="navbar-nav">
                   <li className="nav-item">
                     <div
@@ -42,10 +47,7 @@ function Navigation() {
                         window.location.replace('#aboutMe');
                       }}
                     >
-                      <a
-                        className="nav-link"
-                        onClick={closeMenu}
-                      >
+                      <a className="nav-link" onClick={closeMenu}>
                         About Me
                       </a>
                     </div>
@@ -57,7 +59,7 @@ function Navigation() {
                         window.location.replace('/#projects');
                       }}
                     >
-                      <a className="nav-link"  onClick={closeMenu}>
+                      <a className="nav-link" onClick={closeMenu}>
                         Projects
                       </a>
                     </div>
@@ -75,7 +77,7 @@ function Navigation() {
                     </div>
                   </li>
                   <li className="nav-item">
-                    <Link to="/linked" className="nav-link"  onClick={closeMenu}>
+                    <Link to="/linked" className="nav-link" onClick={closeMenu}>
                       <i className="fa-solid fa-cat"></i>
                     </Link>
                   </li>
@@ -85,7 +87,7 @@ function Navigation() {
           </nav>
         </header>
         <Routes>
-          <Route exact path="/" element={<MainPage />} />
+          <Route path="/" element={<MainPage />} />
           <Route path="/linked" element={<Beanstagram />} />
         </Routes>
       </div>
