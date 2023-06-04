@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio-project-maggie-hyland/static/css/main.2a66f7b1.css",
+    "main.js": "/portfolio-project-maggie-hyland/static/js/main.a6001148.js",
+    "static/js/787.7efd31bd.chunk.js": "/portfolio-project-maggie-hyland/static/js/787.7efd31bd.chunk.js",
+    "static/media/VaporwaveImg.png": "/portfolio-project-maggie-hyland/static/media/VaporwaveImg.23e8971d1c56b15f5074.png",
+    "static/media/GetReadyForecastImg.png": "/portfolio-project-maggie-hyland/static/media/GetReadyForecastImg.1bd885377aaa60df3d1f.png",
+    "static/media/ReactWeatherAppImg.png": "/portfolio-project-maggie-hyland/static/media/ReactWeatherAppImg.8a64cd690ac0f78031b7.png",
+    "static/media/TicTacToeImg.png": "/portfolio-project-maggie-hyland/static/media/TicTacToeImg.4e2e973aa4cea064b75e.png",
+    "index.html": "/portfolio-project-maggie-hyland/index.html",
+    "main.2a66f7b1.css.map": "/portfolio-project-maggie-hyland/static/css/main.2a66f7b1.css.map",
+    "main.a6001148.js.map": "/portfolio-project-maggie-hyland/static/js/main.a6001148.js.map",
+    "787.7efd31bd.chunk.js.map": "/portfolio-project-maggie-hyland/static/js/787.7efd31bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a66f7b1.css",
+    "static/js/main.a6001148.js"
+  ]
+}
