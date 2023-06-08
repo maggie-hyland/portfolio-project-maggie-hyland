@@ -1,4 +1,4 @@
-@import 'Style'; 
+@import 'Style';
 
 p {
   margin-bottom: 0;
@@ -7,24 +7,28 @@ p {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.fa-linkedin, .fa-square-github, .fa-envelope, .footer-email, .footer-email:hover, .open-source-link, .open-source-link:hover  {
+.fa-linkedin,
+.fa-square-github,
+.fa-envelope,
+.footer-email,
+.footer-email:hover,
+.open-source-link,
+.open-source-link:hover {
   @include theme('color', $bg-color);
   color: $bg-color;
 }
 
-.fa-linkedin, .fa-square-github, .fa-envelope {
+.fa-linkedin,
+.fa-square-github,
+.fa-envelope {
   padding: 10px 3px;
   font-size: 35px;
 }
-.footer-email {
-  text-decoration: none;
-}
-.footer-email:hover {
-  text-decoration: underline;
-}
+.footer-email,
 .open-source-link {
   text-decoration: none;
 }
+.footer-email:hover,
 .open-source-link:hover {
   text-decoration: underline;
 }

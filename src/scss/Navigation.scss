@@ -1,6 +1,12 @@
 @import 'Style';
 
-.navbar {
+.navbar{
   @include theme('background-color', $nav-color);
   background-color: $nav-color;
+  @include theme('color', $link-color);
+  color: $link-color;
+}
+a {
+  @include theme('color', $link-color);
+  color: $link-color;
 }

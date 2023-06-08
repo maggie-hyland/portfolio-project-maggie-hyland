@@ -10,8 +10,15 @@ h2 {
 }
 
 h2 {
-  @include theme('color', $secondary-header-color
-  );
-  color: $secondary-header-color
-  ;
+  @include theme('color', $secondary-header-color);
+  color: $secondary-header-color;
+}
+
+.row#rowA {
+  @include theme('background', $rowA-color);
+  background: $rowA-color;
+}
+.row#rowB {
+  @include theme('background', $rowB-color);
+  background: $rowB-color;
 }

@@ -47,7 +47,7 @@ function Navigation() {
                         window.location.replace('/portfolio-project-maggie-hyland/#aboutMe');
                       }}
                     >
-                      <a className="nav-link" onClick={closeMenu}>
+                      <a className="nav-link" onClick={closeMenu} style={{cursor: "pointer"}}>
                         About Me
                       </a>
                     </div>
@@ -59,7 +59,7 @@ function Navigation() {
                         window.location.replace('/portfolio-project-maggie-hyland/#projects');
                       }}
                     >
-                      <a className="nav-link" onClick={closeMenu}>
+                      <a className="nav-link" onClick={closeMenu} style={{cursor: "pointer"}}>
                         Projects
                       </a>
                     </div>
@@ -71,7 +71,7 @@ function Navigation() {
                         window.location.replace('/portfolio-project-maggie-hyland/#contact');
                       }}
                     >
-                      <a className="nav-link" onClick={closeMenu}>
+                      <a className="nav-link" onClick={closeMenu} style={{cursor: "pointer"}}>
                         Contact
                       </a>
                     </div>
