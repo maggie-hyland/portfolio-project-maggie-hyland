@@ -18,7 +18,7 @@ function Navigation() {
         <header>
           <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-              <Link to="/" className="navbar-brand">
+              <Link to="/portfolio-project-maggie-hyland" className="navbar-brand">
                 Maggie Hyland
               </Link>
               <button
@@ -44,7 +44,7 @@ function Navigation() {
                     <div
                       onClick={(e) => {
                         e.preventDefault();
-                        window.location.replace('#aboutMe');
+                        window.location.replace('/portfolio-project-maggie-hyland/#aboutMe');
                       }}
                     >
                       <a className="nav-link" onClick={closeMenu}>
@@ -56,7 +56,7 @@ function Navigation() {
                     <div
                       onClick={(e) => {
                         e.preventDefault();
-                        window.location.replace('/#projects');
+                        window.location.replace('/portfolio-project-maggie-hyland/#projects');
                       }}
                     >
                       <a className="nav-link" onClick={closeMenu}>
@@ -68,7 +68,7 @@ function Navigation() {
                     <div
                       onClick={(e) => {
                         e.preventDefault();
-                        window.location.replace('/#contact');
+                        window.location.replace('/portfolio-project-maggie-hyland/#contact');
                       }}
                     >
                       <a className="nav-link" onClick={closeMenu}>
@@ -87,7 +87,7 @@ function Navigation() {
           </nav>
         </header>
         <Routes>
-          <Route path="/" element={<MainPage />} />
+          <Route path="/portfolio-project-maggie-hyland" element={<MainPage />} />
           <Route path="/linked" element={<Beanstagram />} />
         </Routes>
       </div>
